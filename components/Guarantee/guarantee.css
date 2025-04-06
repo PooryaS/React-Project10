@@ -1,0 +1,25 @@
+.Guarantee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1150px;
+    margin: 3rem auto;
+}
+.GuaranteeDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guaranteeItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius:15px ;
+    padding: 20px;
+    box-shadow: 20px 20px 20px black;
+}
+.guaranteeItem i{
+    font-size: 35px;
+}

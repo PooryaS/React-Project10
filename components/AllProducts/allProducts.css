@@ -1,0 +1,55 @@
+.AllProducts{
+    width: 1150px;
+    margin: 0 auto;
+}
+.FilterAside{
+    width: 700px;
+}
+.salam{
+    width: 100%;
+}
+.ProductsDiv{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    box-shadow: 20px 40px 20px black;
+    margin: 20px;
+    padding: 20px;
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0)) ;
+    justify-content: space-between;
+}
+
+.ShoppingDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ShoppingDiv .Price{
+    color: rgb(240, 211, 47);
+}
+.Pagination{
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+.pageButton{
+    width: 30px;
+    background-color: rgb(240, 211, 47);
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.Spinner{
+    margin: 0 auto;
+}

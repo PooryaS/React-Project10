@@ -1,0 +1,110 @@
+.HeaderRow2{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.HeaderRow2 .leftSide{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.HeaderRow2 .rightSide{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.rightSide .nav{
+    display: flex;
+    gap: 10px;
+}
+.rightSide .nav .MenuItem{
+    list-style-type: none;
+    padding: 10px;
+    transition: all ease 0.25s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rightSide .nav .MenuItem:hover{
+    background-color: rgb(240, 211, 47);
+    color: black;
+    box-shadow: 0 0 5px rgb(240, 211, 47);
+}
+.shoppingCart{
+    display: flex;
+}
+.shoppingCart i{
+    font-size: 22px;
+    
+    position: fixed;
+}
+.nav .MenuItem a{
+    padding: 10px;
+    text-decoration:none;
+    color: white;
+}
+.nav .MenuItem a:hover{
+    color: black;
+}
+.logo{
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: rgb(240, 211, 47);
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(240, 211, 47);
+    transition: all ease 0.25s;
+}
+.leftSide .loginBtn{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 211, 47);
+    box-shadow: 0 0 5px rgb(240, 211, 47);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all ease 0.25s;
+}
+.rightSide .subMenu .dropMenuDiv{
+    display: none;
+    margin-top: 10px;
+    background-color: rgb(90, 90, 90);
+    position: absolute;
+    z-index: 100;
+}
+.subMenu .dropMenuDiv li{
+    margin: 7px;
+    padding: 10px;
+    list-style-type: none;
+    color: white;
+    border-radius: 10px;
+    transition: all ease 0.25s;
+}
+.rightSide .subMenu:hover .dropMenuDiv{
+    display: block;
+}
+.subMenu .dropMenuDiv li:hover{
+    background-color:rgb(211, 185, 36) ;
+    box-shadow: 0 0 5px rgb(240, 211, 47);
+}
+.leftSide .loginBtn:hover{
+    background-color:rgb(211, 185, 36) ;
+}
+.logo:hover{
+    background-color:rgb(211, 185, 36) ;
+}
+.totalQuantity{
+    color: white;
+    z-index: 1;
+    background-color: red;
+    height: 20px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+.totalQuantity:hover{
+    cursor: pointer;
+}

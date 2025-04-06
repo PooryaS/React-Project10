@@ -1,0 +1,51 @@
+.CartTab{
+    z-index: 10;
+    position: fixed !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    width: 18rem;
+    height: 610px;
+    background-color: #374151;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,10);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.CartTab.open{
+    transform: translateX(0);
+}
+.cartTitle{
+    margin: 0 auto;
+    padding: 1.25rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.cartTabBtns{
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    height: 70px;
+}
+.cartCloseBtn{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    color: gold;
+    border: none;
+}
+.cartChekOut{
+    width: 50%;
+    background-color: gold;
+    color: black;
+    border: none;
+}
+.cartList{
+    top:0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}

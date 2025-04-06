@@ -1,0 +1,49 @@
+.Articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:3rem auto;
+    width: 1150px;
+}
+.articlesDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.articlesDiv .articleItem{
+    position: relative;
+    margin: 30px;
+    width: 30%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 10px 20px black;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+}
+.articleItem .Cover{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 100%;
+    height: 100%;
+}
+.articleItem .Cover{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.articleItem .Cover a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(240, 211, 47);
+}
+.articleItem:hover .Cover{
+    display: flex;
+}

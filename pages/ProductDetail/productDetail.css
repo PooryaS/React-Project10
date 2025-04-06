@@ -1,0 +1,46 @@
+.ProductDetail{
+    width: 1150px;
+    margin: 0 auto;
+}
+.cartNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.cartNumber p{
+    margin-top: 16px;
+}
+.cartNumber button{
+    width: 20px;
+    height: 25px;
+}
+.ProductDiv{
+    margin: 3rem auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.detailsDiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.detailsDiv p{
+    text-align: center;
+}
+.ProductImages{
+    width: 40%;
+}
+.ProductImages img{
+    width: 80%;
+    height: 350px;
+}
+.ProductCart{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

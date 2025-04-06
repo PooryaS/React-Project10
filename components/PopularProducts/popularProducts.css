@@ -1,0 +1,85 @@
+.PopularProducts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1150px;
+    margin: 3rem auto;
+    justify-content: center;
+    align-items: center;
+}
+.PopularProducts .ProductsDiv{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.PopularProducts .productsTitle{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.PopularProducts .productsTitle a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    background-color: rgb(240, 211, 47);
+    border-radius:10px;
+    box-shadow: 0 0 10px rgb(240, 211, 47);;
+}
+.PopularProducts .productsTitle a i{
+    font-size: 20px;
+}
+.PopularProducts .productsTitle a:hover{
+    background-color:rgb(211, 185, 36) ;
+}
+.ProductsDiv .Product{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 20px 20px 20px black;
+    width: 20%;
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0)) ;
+    gap:15px;
+    height:430px;
+    justify-content: space-around;
+}
+.ProductsDiv .productPic{
+    width: 100%;
+}
+.Product .ShoppingDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productName{
+    /* text-decoration: none; */
+    color: rgb(240, 211, 47);
+    text-shadow: 0 px 5px rgb(240, 211, 47);
+    cursor: pointer;
+}
+.Product .ShoppingDiv .Price{
+    margin-bottom: 0 !important;
+    color:rgb(240, 211, 47);
+}
+.addToCartBtn{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(240, 211, 47);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(240, 211, 47);
+    transition: all ease 0.25s;
+}
+.addToCartBtn:hover{
+    background-color:rgb(211, 185, 36) ;
+}
+
+
+@media only screen and(max-width:780px){
+
+}

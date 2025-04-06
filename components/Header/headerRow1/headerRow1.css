@@ -1,0 +1,49 @@
+.headerBox .HeaderRow1{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1150px;
+}
+.HeaderRow1 .leftSide{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.leftSide .AboutUs , .Contact{
+    text-decoration: none;
+    color:white;
+}
+.SearchBox{
+    box-shadow: 0 0 7px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.SearchBox i{
+    font-size: 25px;
+    color: black;
+}
+.SearchBox input{
+    border: none;
+    outline: none;
+}
+.HeaderRow1 .rightSide p{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 14px;
+    color: black;
+    background-color: rgb(240, 211, 47);
+    cursor: pointer;
+    transition: all ease 0.25s;
+    box-shadow: 0 0 5px rgb(240, 211, 47);
+}
+.HeaderRow1 .rightSide p:hover{
+    background-color:rgb(211, 185, 36);
+}

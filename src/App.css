@@ -1,0 +1,17 @@
+@font-face {
+    font-family: IranianSans;
+    src: url(../public/fonts/17/IRANSansWeb_Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: IranianSans;
+}
+body{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+.main{
+    margin-top: 220px;
+}
